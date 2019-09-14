@@ -1,11 +1,12 @@
 chooseCRANmirror(11)
 #https://secondnature.org/planet-earth-1401465698wt7/
 
+'
 # install packages --------------------------------------------------------
 
 install.packages("imager")
 install.packages("ggplot2")
-
+'
 
 # load packages -----------------------------------------------------------
 
@@ -48,4 +49,5 @@ new_color <- function(x){
 }
 
 # Change function number to watch the difference in earth image -----------
-new_color(6)
+#Tip: Test it with 3, 8 and 16
+new_color(3)
